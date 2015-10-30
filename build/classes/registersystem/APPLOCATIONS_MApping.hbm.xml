@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="registersystem.APPLOCATIONS_POJO" table="APP_LOCATIONS">
+        <id column="Location_id" name="Location_id">
+            <generator class="native"></generator>
+        </id>
+        <property column="DELETED" name="DELETED"></property>
+        <property column="ENABLED" name="ENABLED"></property>
+        <property column="Incharge" name="Incharge"></property>
+        <property column="Location_name" name="Location_name"></property>
+        <property column="Physical_location" name="Physical_location"></property>
+        <property column="Service_center" name="Service_center"></property>
+        <property column="phone" name="phone"></property>
+    </class>
+</hibernate-mapping>

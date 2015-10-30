@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="registersystem.APP_REGISTEREDSYSTEMSpojos" table="APP_REGISTEREDSYSTEMS">
+        <id column="SYSID" name="SYSID">
+            <generator class="native"></generator>
+        </id>
+        <property column="DATEOFREGISTRATION" name="DATEOFREGISTRATION" insert="false"></property>
+        <property column="DELETED" name="DELETED"></property>
+        <property column="ENABLED" name="ENABLED"></property>
+        <property column="IP" name="IP"></property>
+        <property column="ISCASHCOUNTER" name="ISCASHCOUNTER"></property>
+        <property column="LOCATIONID" name="LOCATIONID"></property>
+        <property column="OS" name="OS"></property>
+        <property column="OWNERID" name="OWNERID"></property>
+        <property column="SERVICECENTERS" name="SERVICECENTERS"></property>
+        <property column="SYSNAME" name="SYSNAME"></property>
+        <property column="USERACCOUNTNAME" name="USERACCOUNTNAME"></property>
+    </class>
+</hibernate-mapping>
