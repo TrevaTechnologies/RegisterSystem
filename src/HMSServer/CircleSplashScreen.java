@@ -12,6 +12,7 @@ import javax.swing.*;
 public class CircleSplashScreen {
 
     public CircleSplashScreen() {
+        System.out.println("adarsh mp");
         JFrame frame = new JFrame();
         frame.getContentPane().add(new ImagePanel());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
