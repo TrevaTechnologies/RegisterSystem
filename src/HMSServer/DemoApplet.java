@@ -35,6 +35,7 @@ public class DemoApplet extends JFrame {
 	 * The main method of the class.
 	 */
 	public static void main(String[] args){
+            System.out.println("akshai");
 		DemoApplet applet = new DemoApplet();
 		applet.setTitle("Dock effect demonstration application.");
 		applet.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
