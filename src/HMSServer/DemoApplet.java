@@ -82,6 +82,7 @@ public class DemoApplet extends JFrame {
      * @return The view element related to horizontally laid out docks.
      */
     private JPanel createHorizontalLayoutPanel() {
+        System.out.println("ADARSH");
         JPanel result = new JPanel();
 
         final DockEffectPanel<JPanel> dockPan1 = createJPanelDockEffectPanel(DockEffectLayout.HORIZONTAL_WITH_BOTTOM_EXTENSION);
