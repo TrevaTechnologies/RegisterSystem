@@ -66,6 +66,7 @@ public class DemoApplet extends JFrame {
      * Creates the view of the applet.
      */
     private void createView() {
+        System.out.println("ADARSHhhhhhh");
         getContentPane().setLayout(new BorderLayout());
         JLabel title = new JLabel("<html><big><b>Dock effect demonstration application.</b></big></html>");
         getContentPane().add(title, BorderLayout.NORTH);
